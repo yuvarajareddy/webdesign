@@ -54,7 +54,7 @@ body {
      
 } 
  .sub-hero-unit {
-     background :url("img/publicis-office.jpg");
+     background :url("../img/publicis-office.jpg");
      background-size: cover;
      padding-top: 5px;
      width : 100%;
