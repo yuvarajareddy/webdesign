@@ -1,0 +1,31 @@
+.two-column-image{
+     display: flex;
+     padding-left: 10px;
+     width: 20vh;
+     background-size: cover;
+
+}
+ .thee-column-image{
+     display: flex;
+     flex-direction: column;
+     background-size: cover;
+     width: 70vh;
+}
+
+
+
+
+
+ two-column img{
+     margin-right: 50px;
+}
+
+
+
+
+height:75vh;
+     width: 60%;
+    position: relative;
+    left:540px;
+    bottom:570px;
+    padding-left: 5px;
