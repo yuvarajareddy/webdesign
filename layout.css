@@ -15,162 +15,157 @@ header {
     display: flex;
     align-items: center;
 }
- .headerText {
+.headerText {
      letter-spacing: 3px;
      color: blue;
 }
 header img{
     height: 100px;
 }
- .header-fixed{
+.header-fixed{
      position: fixed;
      width: 100%;
      background-color: white;
 }
- .navContent a:hover {
+.navContent a:hover {
      color: black;
      text-decoration: underline;
 }
- .content {
+.content {
      display: flex;
      padding-top: 160px;
 }
- aside {
+aside {
      width: 15%;
 }
- main {
+main {
      width: 65%;
 }
- 
- section {
+section {
      width: 20%;
 }
- .right-section-content {
+.right-section-content {
      padding-top: 0px;
      display: block;
 }
- .right-section-content li {
+.right-section-content li {
      padding-top: 30px;
 }
- section p {
+section p {
      padding: 10px;
      padding-right: 23px;
      text-align: justify;
      font-family: calibri;
 }
- .aside-content {
+.aside-content {
      text-decoration: none;
 }
- article {
+article {
      display: flex;
      align-items: center;
 }
- article img {
+article img {
      padding: 20px;
      height: 20vh;
      
 }
- .main-article-para {
+.main-article-para {
      
      padding-right: 12px;
      text-align: justify;
+}
+.meta{
+    display: flex;
+    align-items: center;
 }
 h2{
      text-align: center;
      color: green;
 }
- header,nav,aside,main,section,footer two-column, sub-hero-unit{
+header,nav,aside,main,section,footer two-column, sub-hero-unit{
      border : 1px grey solid;
 }
- .hero-unit {
+.hero-unit {
      padding: 0px;
      margin: 5px;
      
 } 
- .sub-hero-unit {
+.sub-hero-unit {
      background :url("img/publicis-office.jpg");
      background-size: cover;
      padding-top: 5px;
      width : 100%;
      padding-bottom: 800px;
 }
-
-
 .sub-hero-unit h1{
     color: rgb(50% 20% 20%);
 }
 .sub-hero-unit p{
     color: rgb(60% 30% 30%);
 }
- ul {
+ul {
      display: flex;
      justify-content: space-around;
 }
- li {
+li {
      list-style-type: none;
      font-size: 20px;
 }
- li a{
+li a{
      text-decoration: none;
 }
- 
 .row {
     display: flex;
 }
-
 .column {
     flex: 50%;
     padding: 10px;
     background-color:#bbb
-    /*height: 300px; */
 }
 .column h1{
 color: green;
-
 }
 .column a{
     text-decoration: none;
 }
- .column a:hover {
+.column a:hover {
      color: black;
      text-decoration: underline;
 }
-
- 
- footer {
+footer {
      background-color: red;
      display: flex;
 }
- .fa{
+.fa{
      padding: 20px;
      font-size: 30px;
      text-decoration: none;
      margin: 5px 5px;
      border-radius: 50%;
 }
- .fa:hover {
+.fa:hover {
      opacity: 0.7;
 }
- .fa-twitter {
+.fa-twitter {
      background: #55ACEE;
      color: white;
 }
- .fa-google {
+.fa-google {
      background: #dd4b39;
      color: white;
 }
- .fa-linkedin {
+.fa-linkedin {
      background: #007bb5;
      color: white;
 }
- .fa-youtube {
+.fa-youtube {
      background: #bb0000;
      color: white;
 }
- .center{
+.center{
      margin: auto;
 }
- @media (max-width: 600px) {
+@media (max-width: 600px) {
      .content {
          flex-direction: column;
     }
@@ -187,7 +182,6 @@ color: green;
          display: block;
          text-align: left;
          padding-left: 15px;
-         /*flex-direction: column;*/
     }
     .image{
          flex-direction: column;
@@ -215,15 +209,15 @@ color: green;
     .navContent {
      display: block;
 
-}
-.navContent li{
+    }
+    .navContent li{
     display: inline-block;
     padding: 10px;
     padding-left: 50px;
-}
-.right-section-content{
+    }   
+    .right-section-content{
     text-align: center;
-}
+    }
 }
 
 
@@ -234,15 +228,25 @@ color: green;
      padding: 0px;
      margin: 5px 5px;
     }
-.navContent {
+    .navContent {
      display: block;
 
-}
-.navContent li{
+    }
+    .navContent li{
     display: inline-block;
     padding: 5px;
-}
-.right-section-content{
+    }
+    .right-section-content{
     text-align: center;
-}
+    }
+    .meta{
+    display: flex;
+    flex-direction: column;
+    }
+    .main-article-para{
+
+    padding-left: 5px;
+    padding-right: 5px;
+    max-width: 100%;
+    }
 }
