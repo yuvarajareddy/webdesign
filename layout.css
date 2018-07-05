@@ -98,10 +98,10 @@ header,nav,aside,main,section,footer two-column, sub-hero-unit{
      padding-bottom: 800px;
 }
 .sub-hero-unit h1{
-    color: rgb(50% 20% 20%);
+    color: #800000;
 }
 .sub-hero-unit p{
-    color: rgb(60% 30% 30%);
+    color: #c71585;
 }
 ul {
      display: flex;
